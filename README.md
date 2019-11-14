@@ -61,3 +61,23 @@ Collect Designs that you like.
 Try to understand everything about them.
 Why do they look good?
 How they are build in html and css.
+
+# steps to create a good app
+
+Define the goal of the project
+Plan your content: text, images, video, icons, etc
+Start thinking about visual hierarchy
+Define the site structure, if its a big project
+Sketch the ideas before designing
+Never design without knowing what to build
+
+# responsive design
+
+1.Fluid Grids: All layout elements are sized in relative units, such as percentage, instead of absolute units like pixels.
+
+2. Images: Also sized in relative units
+3. Media Queries: allow us to specify different CSS style rules for different browser width
+
+The grid we are usign here is a modified version on responsivegridsystem.com
+
+normalize.css makes css looks same on all browser.
