@@ -1,0 +1,14 @@
+/* Remove padding and margin from all elements and border box will let padding and margin to be a part of height and width */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  background: yellow;
+}
