@@ -27,3 +27,37 @@ Use lighter and darker version of that color in the site.
 Avoid using black color.
 
 Choose color wisely based on psychological effects
+
+# Images
+
+Image heavy websites convert better. Use overlay colors to make text more visible when putting over image.
+
+# Icons
+
+Label Icons if there is a space. Use relative icons.
+Use vector icon fonts.
+
+# Spacing and layouts
+
+Put whitespace between your elements
+Put whitespace between your groups of element
+Put whitespace between your websites section
+But dont exaggerate
+
+# User Interface
+
+Is the presentation of a product, how it looks and feel
+
+# User Experience
+
+Is the overall experience of the product the user has.
+
+Design is how it works. Not just look and feel. - Steve Jobs
+
+# Inspiration
+
+Use other websites as inspiration to see what other designers are doing.
+Collect Designs that you like.
+Try to understand everything about them.
+Why do they look good?
+How they are build in html and css.
