@@ -18,3 +18,12 @@ Sans-serif - More neutral , Clean, Simple, Mordern
 Some Sans-serif Fonts available at google font are - Open Sans, Lato, Raleway, Monsterrat, PT Sans.
 
 Serif fonts are used when there is lot of content to read. these are diffrent from Sans Serif.
+
+# Colors
+
+Use one base color
+Use lighter and darker version of that color in the site.
+
+Avoid using black color.
+
+Choose color wisely based on psychological effects
