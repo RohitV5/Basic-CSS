@@ -22,28 +22,18 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
 .row {
-  max-width: 1140px;
+  max-width: 85vw;
   margin: 0 auto;
 }
 
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.712)),
-    url(img/hero.jpg);
-  /* cover will resize image to fit area */
-  background-size: cover;
-  background-position: center;
-  /* header element will take entire height */
-  height: 100vh;
-}
-
-.hero-text-box {
-  position: absolute;
-  width: 85vw;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+/* ----------------------------------------------- */
+/* HEADINGS */
+/* ----------------------------------------------- */
 
 h1 {
   margin-top: 0;
@@ -55,6 +45,10 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+/* ----------------------------------------------- */
+/* BUTTONS */
+/* ----------------------------------------------- */
 
 .btn:link,
 .btn:visited {
@@ -97,4 +91,65 @@ h1 {
 .btn-ghost:active {
   border: 1px solid #cf6d17;
   color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.712)),
+    url(img/hero.jpg);
+  /* cover will resize image to fit area */
+  background-size: cover;
+  background-position: center;
+  /* header element will take entire height */
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 85vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 60px;
+}
+
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 100%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  /* 90% of base size which is set as 20px so equals 18px */
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
 }
