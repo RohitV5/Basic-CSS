@@ -227,4 +227,41 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+  
 }
+
+
+
+/* ----------------------------------------------- */
+/* MEALS SECTION */
+/* ----------------------------------------------- */
+
+.meal-showcase{
+  list-style: none;
+  width: 100%;
+}
+
+
+/* 4 elements so each has 25% */
+.meals-showcase li{
+  display: block;
+  float:left;
+  width: 25%;
+}
+
+.meal-photo{
+  width: 100%;
+  margin:0;
+}
+
+
+/* this will make the image occupy 100% width of container and will shrink and grow based on area on container rather than its actual size */
+.meal-photo img{
+  width:100%;
+  height: auto;
+}
+
+
+
+
+
