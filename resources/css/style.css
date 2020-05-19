@@ -220,6 +220,7 @@ header {
   background-position: center;
   /* header element will take entire height */
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -389,6 +390,7 @@ header {
 /* CITIES SECTION*/
 /* ----------------------------------------------- */
 
+/* making the image as wide as the container it is in and give some margin at the bottom of pic*/
 .box img{
   width: 100%;
   height: auto;
@@ -400,6 +402,49 @@ header {
 }
 
 
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS SECTION*/
+/* ----------------------------------------------- */
+/* background-attachment fixed will not scroll the background on scroll---cool!!! */
+.section-testimonials{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+  background-size: cover;
+  color:white;
+  background-attachment: fixed;
+}
+
+
+blockquote{
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+
+}
+
+cite{
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+blockquote:before{
+  content:"\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top:-5px;
+  left:-5px;
+}
+
+cite img{
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 
 
